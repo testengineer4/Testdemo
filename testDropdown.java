@@ -21,6 +21,7 @@ public class testDropdown {
 		    WebElement element = driver.findElement(By.xpath("//Select[@id='Skills']"));
 		    Select sel=new Select(element);
 		    sel.selectByVisibleText("Android");
+		    
 
 	}
 
